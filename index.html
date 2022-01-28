@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYSON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="preview">
+            <header class="container header">
+                <div class="logo">   
+                    <a href="#">
+                        <img src="./img/Dyson_logo 1.png" alt="Icon">
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="nav-li">
+                            <a class="nav-link" href="#">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-link" href="#">
+                                DESIGN
+                            </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-link" href="#">
+                                APP
+                            </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-link" href="https://www.youtube.com/">
+                                YOUTUBE
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <section class="photo">
+            <div class="container">
+                <div class="image">
+                    <img src="./img/Peru.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="forms">
+            <div class="container">
+                <!--<form action=""></form>!-->
+                <form method="POST">
+                    <div class="name">
+                        <input value="Elkris" required placeholder="Your name" type="text">
+                        <!--<button type="submit">Go</button>!-->
+                    </div>
+                    <div class="second-name">
+                        <input required placeholder="Your Surname" type="text">
+                        <!--<input value="Enter" type="submit">!-->
+                    </div>
+                    <div class="post">
+                        <input required placeholder="email@gmail.com" type="email">
+                        <!--<input type="submit">!-->
+                    </div>
+                    <div class="choic">
+                        <input name="radioGroup" id="choic1" required type="radio">
+                        <label for="choic1">Choic 1</label><br>
+                        <input name="radioGroup" id="choic2" required type="radio">
+                        <label for="choic2">Choic 2</label>
+                    </div>
+                    <div class="i-agree">
+                        <input id="agree" checked required type="checkbox">
+                        <label for="agree">I agree</label>
+                    </div>
+                    <div class="telephone">
+                        <input placeholder=" Your phone" type="tel" id="phone" name="phone"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12"
+                            required>
+                        <small>Format: 123-456-7890</small>
+                    </div>
+                    <div class="order">
+                        <button type="submit">Pre-order</button>
+                        
+                    </div>
+                    <!--<div class="area">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button type="reset">Go</button>
+                    </div>!-->
+                    </form>
+                </div>
+        </section>
+        <section class="video">
+            <div class="container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vPhg6sc1Mk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <p> video resurs ...</p>
+            </div>
+
+        </section>
+    </section>
+    <section class="video-2">
+        <div class="container">
+            <video width="560" height="315" autoplay muted loop poster="./img/nature.png" controls allowfullscreen>
+                <source src="./img/ocean_10.mp4">
+                    <source src="./img/ocean_10.ovg">
+                    <source src="./img/ocean_10.webm">
+            </video>
+        </div>
+
+    </section>
+    </div>
+</body>
+</html>
